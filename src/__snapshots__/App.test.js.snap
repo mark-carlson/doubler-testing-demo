@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should accept a click on the button 1`] = `
+<div>
+  <div
+    class="App jumbotron"
+  >
+    <h1>
+      React Doubler
+    </h1>
+    <h2
+      class="numberDisplay"
+      data-testid="numberDisplay"
+    >
+      1
+    </h2>
+    <div
+      class="btn-container"
+    >
+      <button
+        class="btn btn-primary"
+        id="doubler-btn"
+      >
+        Doubler
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App should render correctly 1`] = `
+<div
+  className="App jumbotron"
+>
+  <h1>
+    React Doubler
+  </h1>
+  <h2
+    className="numberDisplay"
+    data-testid="numberDisplay"
+  >
+    1
+  </h2>
+  <div
+    className="btn-container"
+  >
+    <button
+      className="btn btn-primary"
+      id="doubler-btn"
+      onClick={[Function]}
+    >
+      Doubler
+    </button>
+  </div>
+</div>
+`;
