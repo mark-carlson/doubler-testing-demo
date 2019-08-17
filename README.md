@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Instructions
 
+- There are 2 branches: `master` and `demo`. Start instruction in `demo` branch.
+
 - Run `npm install @testing-library/jest-dom @testing-library/react react-test-renderer`
 
 - In package.json, change line `"test": "react-scripts test"` to `"test": "react-scripts test --coverage --watchAll=false"`
